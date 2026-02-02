@@ -21,20 +21,20 @@ function getHumanChoice(){
 // console.log(getHumanChoice());
 
 playGame();
-//winner declare
-    if(humanScore > computerScore){
-      console.log("You're the Winner!");
-    }else if(humanScore === computerScore){
-      console.log("No Winner!");
-    }else{
-      console.log("Computer is the Winner!");
-    }
+declareWinner();
 
-
+function declareWinner(){
+  if(humanScore > computerScore){
+    console.log("Finally, You're the Winner!");
+  }else if(humanScore === computerScore){
+    console.log("Finally, No Winner!");
+  }else{
+    console.log("Finally, Computer is the Winner!");
+  }
+}
 
 function playGame(){
-  
-  //play 5 rounds
+
   for(let i = 0; i < 5; i++){
     let humanSelection = getHumanChoice();
     let computerSelection = getComputerChoice();
