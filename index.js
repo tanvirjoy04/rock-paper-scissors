@@ -41,7 +41,7 @@ const score = document.getElementById('score');
   
 
 function playRound(humanChoice, computerChoice){
-  selection.textContent = `You clicked ${humanChoice}`;
+  selection.textContent = `You >> ${humanChoice}, Computer >> ${computerChoice}`;
   // let text = 'You clicked '+humanChoice;
   // display(text);
   
@@ -96,12 +96,12 @@ function declareWinner(){
 
   if(humanScore > computerScore){
     declare.textContent = "Finally, You're the Winner!";
-    declare.style.color = 'orange';
+    declare.style.color = 'deepskyblue';
   }else if(humanScore == computerScore){
     declare.textContent = "Finally, No Winner!";
-    declare.style.color = 'red';
+    declare.style.color = 'deeppink';
   }else{
     declare.textContent = "Finally, Computer is the Winner!";
-    declare.style.color = 'blue';
+    declare.style.color = 'red';
   }
 }

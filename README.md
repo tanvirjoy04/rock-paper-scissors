@@ -1,5 +1,5 @@
-# rock-paper-scissors
-Project based on [The Odin Project](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors) for Advanced students of Javascript.
+# rock paper scissors game
+Project based on [The Odin Project](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors) for the public.
 
 ## Pseudocode
 - Setup the project structure
