@@ -3,7 +3,6 @@ let humanScore = 0
 
 function getComputerChoice(){
   let option = Math.floor(Math.random() * 3 + 1);
-  // console.log(option);
   if(option === 1){
     return "rock";
   }else if(option === 2){
@@ -42,8 +41,6 @@ const score = document.getElementById('score');
 
 function playRound(humanChoice, computerChoice){
   selection.textContent = `You >> ${humanChoice}, Computer >> ${computerChoice}`;
-  // let text = 'You clicked '+humanChoice;
-  // display(text);
   
   if(humanChoice ==='rock' && computerChoice === 'paper'){
     message.textContent = 'You lose! Paper beats Rock';
