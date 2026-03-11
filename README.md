@@ -1,5 +1,5 @@
 # rock paper scissors game
-Project based on [The Odin Project](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors) for the public.
+Project based on [The Odin Project](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors) for everyone.
 
 ## Pseudocode
 - Setup the project structure
